@@ -7,3 +7,7 @@ uvicorn
 joblib
 prometheus-fastapi-instrumentator
 scipy
+
+
+
+
