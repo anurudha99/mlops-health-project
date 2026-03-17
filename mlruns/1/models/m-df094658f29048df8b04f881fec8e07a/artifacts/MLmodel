@@ -1,0 +1,23 @@
+artifact_path: file:C:/Users/user/Desktop/MLops_Health/mlruns/1/models/m-df094658f29048df8b04f881fec8e07a/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.10
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+    skops_trusted_types: null
+mlflow_version: 3.10.1
+model_id: m-df094658f29048df8b04f881fec8e07a
+model_size_bytes: 1696926
+model_uuid: m-df094658f29048df8b04f881fec8e07a
+prompts: null
+run_id: f8469d8c783340ea982e9363d4c29dc7
+utc_time_created: '2026-03-16 12:14:14.016093'

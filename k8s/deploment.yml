@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: healthcare-mlops
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: healthcare-mlops
+  template:
+    metadata:
+      labels:
+        app: healthcare-mlops
+    spec:
+      containers:
+      - name: healthcare-mlops
+        image: healthcare-mlops:latest
+        ports:
+        - containerPort: 8000
