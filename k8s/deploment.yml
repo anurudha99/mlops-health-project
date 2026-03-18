@@ -16,4 +16,4 @@ spec:
       - name: healthcare-mlops
         image: healthcare-mlops:latest
         ports:
-        - containerPort: 8000
+        - containerPort: 8080
